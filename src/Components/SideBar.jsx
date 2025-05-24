@@ -52,12 +52,10 @@ function SideBar_MainDiv() {
             </div>
 
 
-            <ul className="SideBar_All_Links">
-                <li className="SideBar_Link">
-                    <span className="SideBar_Icons">{SettingsIcon.icon}</span>
-                    <span>{SettingsIcon.label}</span>
-                </li>
-            </ul>
+            <div className='Settings_Link'>
+                <span className="SideBar_Icons">{SettingsIcon.icon}</span>
+                <span>{SettingsIcon.label}</span>
+            </div>
 
         </aside>
     );

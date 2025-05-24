@@ -14,7 +14,7 @@ const anatomyData = [
 function AnatomySection() {
     return (
         <div className="anatomy-section">
-            <img src={anatomyImage} alt="Anatomical Illustration" className="anatomy-image" />
+            <img src={anatomyImage} alt="Anatomical Illustration" className="Anatomy_Image"/>
             <div className="anatomy-indicators">
                 {anatomyData.map((item, index) => (
                     <div key={index} className="indicator">
