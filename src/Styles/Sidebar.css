@@ -1,0 +1,50 @@
+.SideBar_MainDiv {
+    width: 240px;
+    max-height: 100vh;
+    background-color: #f7f9fc;
+    padding: 20px;
+    border-right: 1px solid #e0e0e0;
+    min-height: 100vh;
+    box-shadow: 2px 0 6px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.SideBar_Heading {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    color: #333;
+    padding-top: 14px;
+    color: gray;
+}
+
+.SideBar_All_Links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.SideBar_Link {
+    display: flex;
+    align-items: center;
+    padding: 10px 12px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    color: #444;
+    font-size: 0.95rem;
+    transition: background-color 0.2s;
+    cursor: pointer;
+}
+
+.SideBar_Link:hover {
+    background-color: #e6f0ff;
+}
+
+
+.SideBar_Icons {
+    margin-right: 12px;
+    font-size: 1rem;
+    color: #4a90e2;
+}

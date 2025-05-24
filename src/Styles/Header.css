@@ -1,0 +1,66 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 24px;
+    background-color: #fff;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.SearchBar_Bell_Icons {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.Search_Bar{
+    gap: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.Search_Bar input {
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    width: 200px;
+    background-color: #f0f0f0;
+}
+
+.Plus_Logo_Icons {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.Plus_Btn {
+    background-color: #3498db;
+    color: white;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: default;
+}
+
+.icon {
+    font-size: 20px;
+    color: #555;
+}
+
+.User_Logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.avatar {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.username {
+    font-size: 14px;
+    color: #333;
+}
