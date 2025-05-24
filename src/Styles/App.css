@@ -1,4 +1,10 @@
-.app-container {
+*{
+  padding: 0;
+  margin: 0;
+}
+
+
+.App_MainDiv {
   display: flex;
   min-height: 100vh;
   background-color: #f5f7fa;
@@ -6,7 +12,7 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.main-content {
+.Main_Content {
   flex: 1;
   display: flex;
   flex-direction: column;
