@@ -73,7 +73,7 @@ function CalendarView() {
           <UpcomingSchedule Upcoming_Title={"Health checkup complete"} Icon={"💉"} Upcoming_Time={"11:00"} />
         </div>
         <div>
-          <UpcomingSchedule Upcoming_Title={"Ophthalmologist"} Icon={"👀"} Upcoming_Time={"11:00"} />
+          <UpcomingSchedule Upcoming_Title={"Ophthalmologist"} Icon={"👀"} Upcoming_Time={"14:00"} />
         </div>
       </div>
 

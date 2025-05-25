@@ -11,8 +11,13 @@
 .UpcomingSchedule_Title{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .Upcoming_Day{
     margin-top: 14px;
+}
+
+.Upcoming_Img{
+    margin-left: 14px;
 }

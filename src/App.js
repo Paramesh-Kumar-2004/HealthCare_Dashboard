@@ -7,7 +7,9 @@ import './Styles/App.css';
 function App() {
   return (
     <div className="App_MainDiv">
-      <SideBar />
+      <div className='Side_Bar'>
+        <SideBar />
+      </div>
       <div className="Main_Content">
         <Header />
         <DashboardMainContent />
