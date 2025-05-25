@@ -1,4 +1,4 @@
-import DashboardMainContent from './Components/DashboardMainContent';
+import DashboardMainContent from './Pages/DashboardMainContent';
 import SideBar from './Components/SideBar';
 import Header from './Components/Header';
 import './Styles/App.css';
