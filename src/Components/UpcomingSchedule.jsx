@@ -1,13 +1,18 @@
 import React from 'react'
+import "../Styles/UpcomingSchedule.css"
 
-function UpcomingSchedule({ Upcoming_Title, Upcoming_Time }) {
+
+
+function UpcomingSchedule({ Upcoming_Title, Icon, Upcoming_Time }) {
     return (
-        <div className='UpcomingSchedule_MainDiv'>
 
-            <div>
+        <div className='UpcomingSchedule_MainDiv'>
+            <div className='UpcomingSchedule_Title'>
                 <div>{Upcoming_Title}</div>
-                <span></span>
+                <span>{Icon}</span>
             </div>
+            
+            <div>{Upcoming_Time}</div>
 
         </div>
     )

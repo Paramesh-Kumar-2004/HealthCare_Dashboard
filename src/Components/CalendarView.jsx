@@ -1,27 +1,7 @@
 import React from 'react'
 import "../Styles/CalendarView.css"
 import Appointments from './Appointments';
-
-
-
-
-
-const upcomingSchedule = [
-  {
-    day: "Thursday",
-    events: [
-      { title: "Health checkup complete", time: "11:00 AM", icon: "🩺" },
-      { title: "Ophthalmologist", time: "14:00 PM", icon: "👁️" },
-    ],
-  },
-  {
-    day: "Saturday",
-    events: [
-      { title: "Cardiologist", time: "12:00 PM", icon: "❤️" },
-      { title: "Neurologist", time: "16:00 PM", icon: "🧠" },
-    ],
-  },
-];
+import UpcomingSchedule from './UpcomingSchedule';
 
 
 function CalendarView() {
@@ -85,11 +65,25 @@ function CalendarView() {
         </div>
       </div>
 
-      <div className="Up_Comings">
-        <div className="Up_Coming_Title">The Up Coming Schedule</div>
-        On Monday
-        <div>
+      <div className="Up_Coming_Title">The Up Coming Schedule</div>
 
+      <h4 className='Upcoming_Day'>On Thursday</h4>
+      <div className="Up_Comings">
+        <div>
+          <UpcomingSchedule Upcoming_Title={"Health checkup complete"} Icon={"💉"} Upcoming_Time={"11:00"} />
+        </div>
+        <div>
+          <UpcomingSchedule Upcoming_Title={"Ophthalmologist"} Icon={"👀"} Upcoming_Time={"11:00"} />
+        </div>
+      </div>
+
+      <h4 className='Upcoming_Day'>On Saturday</h4>
+      <div className="Up_Comings">
+        <div>
+          <UpcomingSchedule Upcoming_Title={"Cardiologist"} Icon={"❤️"} Upcoming_Time={"12:00"} />
+        </div>
+        <div>
+          <UpcomingSchedule Upcoming_Title={"Neurologist"} Icon={"🧠"} Upcoming_Time={"16:00"} />
         </div>
       </div>
 
@@ -100,33 +94,19 @@ function CalendarView() {
 
 export default CalendarView;
 
-//  "2021-10-26": [
-//     {
-//       time: "09:00 - 11:00",
-//       title: "Dentist",
-//       doctor: "Dr. Cameron Williamson",
-//       colorClass: "appointment-blue",
-//       icon: "🦷",
-//     },
-//   ],
-
-const appointments = {
-  "2021-10-26": [
-    {
-      time: "09:00 - 11:00",
-      title: "Dentist",
-      doctor: "Dr. Cameron Williamson",
-      colorClass: "appointment-blue",
-      icon: "🦷",
-    },
-  ],
-  "2021-10-28": [
-    {
-      time: "11:00 - 12:00",
-      title: "Physiotherapy Appointment",
-      doctor: "Dr. Kevin Djones",
-      colorClass: "appointment-gray",
-      icon: "🏋️‍♂️",
-    },
-  ],
-};
+const upcomingSchedule = [
+  {
+    day: "Thursday",
+    events: [
+      { title: "Health checkup complete", time: "11:00 AM", icon: "🩺" },
+      { title: "Ophthalmologist", time: "14:00 PM", icon: "👁️" },
+    ],
+  },
+  {
+    day: "Saturday",
+    events: [
+      { title: "Cardiologist", time: "12:00 PM", icon: "❤️" },
+      { title: "Neurologist", time: "16:00 PM", icon: "🧠" },
+    ],
+  },
+];

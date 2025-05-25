@@ -1,0 +1,18 @@
+.UpcomingSchedule_MainDiv{
+    width: auto;
+    background: gray;
+    color: aliceblue;
+    padding: 14px;
+    margin: 14px;
+    border-radius: 14px;
+}
+
+
+.UpcomingSchedule_Title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Upcoming_Day{
+    margin-top: 14px;
+}
