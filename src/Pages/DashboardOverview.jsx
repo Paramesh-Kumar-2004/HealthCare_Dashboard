@@ -1,5 +1,5 @@
 import React from 'react';
-import AnatomySection from '../Components/AnatomySection';
+import AnatomySection from './AnatomySection';
 import HealthStatusCards from '../Components/HealthStatusCards';
 import './../Styles/DashboardMainContent.css';
 

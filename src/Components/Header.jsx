@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaBell, FaPlus } from 'react-icons/fa';
 import "../Styles/Header.css"
+import Logo from "../Assets/Logo.jpeg"
 
 
 function Header() {
@@ -9,7 +10,7 @@ function Header() {
             <div className="SearchBar_Bell_Icons">
                 <div className="Search_Bar">
                     <input type="text" placeholder="Search..." disabled />
-                    <FaBell className="icon" />
+                    <FaBell className="Bell_Icon" />
                 </div>
             </div>
 
@@ -19,8 +20,8 @@ function Header() {
                 </button>
                 <div className="User_Logo">
                     <img
-                        src="https://via.placeholder.com/40"
-                        alt="img err"
+                        src={Logo}
+                        alt="err"
                         className="avatar"
                     />
                 </div>
