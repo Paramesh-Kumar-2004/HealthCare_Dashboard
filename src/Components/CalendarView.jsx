@@ -1,28 +1,10 @@
 import React from 'react'
 import "../Styles/CalendarView.css"
+import Appointments from './Appointments';
 
 
 
-const appointments = {
-  "2021-10-26": [
-    {
-      time: "09:00 - 11:00",
-      title: "Dentist",
-      doctor: "Dr. Cameron Williamson",
-      colorClass: "appointment-blue",
-      icon: "🦷",
-    },
-  ],
-  "2021-10-28": [
-    {
-      time: "11:00 - 12:00",
-      title: "Physiotherapy Appointment",
-      doctor: "Dr. Kevin Djones",
-      colorClass: "appointment-gray",
-      icon: "🏋️‍♂️",
-    },
-  ],
-};
+
 
 const upcomingSchedule = [
   {
@@ -93,14 +75,58 @@ function CalendarView() {
         })}
       </div>
 
-      <div className="Appointments_List">
+      <div className='Appointments' >
+        <div>
+          <Appointments Title={"Dentist"} Icon={"🦷"} Apo_Time={"09:00 - 11:00"} Dr_Name={"Dr. Cameron Williamson"} BGColor={"Darkblue"} />
+        </div>
 
+        <div>
+          <Appointments Title={"Physiotherapy Appointment"} Icon={"🦷"} Apo_Time={"11:00 - 12:00"} Dr_Name={"Dr. Kevin Djones"} />
+        </div>
       </div>
 
-      <h2 className="upcoming-title">The Upcoming Schedule</h2>
+      <div className="Up_Comings">
+        <div className="Up_Coming_Title">The Up Coming Schedule</div>
+        On Monday
+        <div>
+
+        </div>
+      </div>
+
 
     </div>
   );
 };
 
 export default CalendarView;
+
+//  "2021-10-26": [
+//     {
+//       time: "09:00 - 11:00",
+//       title: "Dentist",
+//       doctor: "Dr. Cameron Williamson",
+//       colorClass: "appointment-blue",
+//       icon: "🦷",
+//     },
+//   ],
+
+const appointments = {
+  "2021-10-26": [
+    {
+      time: "09:00 - 11:00",
+      title: "Dentist",
+      doctor: "Dr. Cameron Williamson",
+      colorClass: "appointment-blue",
+      icon: "🦷",
+    },
+  ],
+  "2021-10-28": [
+    {
+      time: "11:00 - 12:00",
+      title: "Physiotherapy Appointment",
+      doctor: "Dr. Kevin Djones",
+      colorClass: "appointment-gray",
+      icon: "🏋️‍♂️",
+    },
+  ],
+};

@@ -1,0 +1,18 @@
+.Appointments_List {
+    padding: 14px;
+    margin: 14px;
+    border-radius: 14px;
+    background: darkslategray;
+    color: white;
+    margin-bottom: 26px;
+}
+
+.Title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3px;
+}
+
+.Dr_Name {
+    font-size: 14px;
+}
