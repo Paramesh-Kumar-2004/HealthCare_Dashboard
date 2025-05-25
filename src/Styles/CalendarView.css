@@ -1,0 +1,117 @@
+#Calendar_MainDiv {
+    height: 100%;
+    width: 50%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Calendar_Container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background: white;
+    color: #333;
+}
+
+.Calendar_Title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 14px;
+}
+
+.Week_Table {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.Week_Day.full {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.Day_Label {
+    margin-bottom: 8px;
+}
+
+.Day_Times {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.Time_Slot {
+    color: grey;
+    padding: 2px 4px;
+    font-size: 12px;
+}
+
+.Time_Slot.empty {
+    background: none;
+    color: #bbb;
+}
+
+.Appointments_List {
+    margin-bottom: 40px;
+}
+
+.appointment-card {
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.appointment-blue {
+    background-color: #2563eb;
+    /* blue */
+    color: white;
+}
+
+.appointment-gray {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.appointment-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.appointment-doctor {
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+.upcoming-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.upcoming-day {
+    margin-bottom: 20px;
+}
+
+.event-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.event-card {
+    display: flex;
+    justify-content: space-between;
+    background: #f5f5f5;
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+
+.event-time {
+    font-size: 14px;
+    color: #555;
+}
