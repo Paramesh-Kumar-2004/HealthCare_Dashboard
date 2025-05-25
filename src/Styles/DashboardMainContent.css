@@ -1,11 +1,11 @@
-.dashboard-Main_Content {
+.Dashboard_Main_Content {
     padding: 20px;
     display: flex;
     flex-direction: column;
     gap: 24px;
 }
 
-.dashboard-overview {
+.Dashboard_Component {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;

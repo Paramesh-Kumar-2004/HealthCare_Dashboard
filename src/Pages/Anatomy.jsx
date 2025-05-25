@@ -1,7 +1,12 @@
 import React from 'react';
-import './../Styles/Anatomy.css';
 import anatomyImage from '../Assets/anatomy.jpg';
 import HealthStatusCards from '../Components/HealthStatusCards';
+
+import Bone from "../Assets/Bone.jpg"
+import Teeth from "../Assets/Teeth.jpg"
+import Lungs from "../Assets/Lungs.jpg"
+
+import './../Styles/Anatomy.css';
 
 
 // const anatomyData = [
@@ -15,11 +20,18 @@ import HealthStatusCards from '../Components/HealthStatusCards';
 function Anatomy() {
     return (
         <div className="Anatomy_MainDiv">
-            <img src={anatomyImage} alt="Anatomical Illustration" className="Anatomy_Image" />
-            <div className="Org_Details">
+            <div className='Anatomy_Status'>
+                <img src={anatomyImage} alt="Anatomical Illustration" className="Anatomy_Image" />
 
+                <div className="Org_Details">
+                    <HealthStatusCards Org_IMG={Lungs} Org_Name={"Lungs"} Apo_Date={"24-May-2025"} Color={"red"} Status={"Needs Attention"} />
+
+                    <HealthStatusCards Org_IMG={Teeth} Org_Name={"Teeth"} Apo_Date={"25-May-2025"} Color={"Orange"} Status={"Good"} />
+
+                    <HealthStatusCards Org_IMG={Bone} Org_Name={"Bone"} Apo_Date={"20-May-2025"} Color={"Green"} Status={"Healthy"} />
+                </div>
             </div>
-            <HealthStatusCards  Org_Name={"Lungs"} Apo_Date={"May-25-2025"} Color={"red"} Status={"Needs Attention"} />
+
         </div>
 
     );

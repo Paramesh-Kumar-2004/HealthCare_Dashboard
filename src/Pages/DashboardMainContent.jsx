@@ -5,7 +5,7 @@ import DashboardOverview from './DashboardOverview';
 
 function DashboardMainContent() {
     return (
-        <div className="dashboard-Main_Content">
+        <div className="Dashboard_Main_Content">
             <DashboardOverview />
         </div>
     );

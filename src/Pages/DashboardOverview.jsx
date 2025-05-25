@@ -3,14 +3,14 @@ import AnatomySection from './Anatomy';
 import Anatomy from './Anatomy';
 import HealthStatusCards from '../Components/HealthStatusCards';
 import './../Styles/DashboardMainContent.css';
+import CalendarView from "../Components/CalendarView"
 
 
 function DashboardOverview() {
   return (
-    <div className="dashboard-overview">
-      {/* <AnatomySection /> */}
+    <div className="Dashboard_Component">
       <Anatomy />
-      <HealthStatusCards />
+      <CalendarView />
     </div>
   );
 };
