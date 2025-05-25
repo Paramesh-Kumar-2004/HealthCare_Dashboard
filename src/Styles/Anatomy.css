@@ -9,11 +9,11 @@
     justify-content: space-evenly;
 }
 
-.Anatomy_Status{
+.Anatomy_Status {
     display: flex;
 }
 
-.Org_Details{
+.Org_Details {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -34,10 +34,3 @@
     align-items: center;
     margin-bottom: 8px;
 }
-
-/* .status-dot {
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    margin-right: 8px;
-} */

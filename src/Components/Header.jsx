@@ -15,9 +15,6 @@ function Header() {
             </div>
 
             <div className="Plus_Logo_Icons">
-                <button className="Plus_Btn">
-                    <FaPlus />
-                </button>
                 <div className="User_Logo">
                     <img
                         src={Logo}
@@ -25,6 +22,9 @@ function Header() {
                         className="avatar"
                     />
                 </div>
+                <button className="Plus_Btn">
+                    <FaPlus />
+                </button>
             </div>
         </header>
     );
