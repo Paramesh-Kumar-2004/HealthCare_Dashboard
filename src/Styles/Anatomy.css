@@ -1,5 +1,6 @@
 .Anatomy_MainDiv {
     height: 80vh;
+    min-width: 500px;
     flex: 1;
     background: #fff;
     border-radius: 16px;
@@ -69,6 +70,7 @@
     font-weight: 500;
     border-radius: 10px;
 }
+
 
 
 .Highlight_Box {

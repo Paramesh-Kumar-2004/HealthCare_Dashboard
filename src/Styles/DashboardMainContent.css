@@ -1,14 +1,14 @@
 .Dashboard_Main_Content {
     display: flex;
-    /* min-height: 100vh; */
-    padding: 20px;
+    /* padding: 20px; */
     /* background: gray; */
     flex-direction: column;
     gap: 24px;
 }
 
 .Dashboard_Component {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    justify-content: space-between;
 }

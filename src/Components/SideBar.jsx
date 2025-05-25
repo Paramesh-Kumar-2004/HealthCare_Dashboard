@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { FaTachometerAlt, FaHistory, FaCalendarAlt, FaNotesMedical, FaChartBar, FaVial, FaComments, FaLifeRing, FaCog } from 'react-icons/fa';
 import '../Styles/Sidebar.css';
 
@@ -9,8 +9,6 @@ const GeneralSideBar = [
     { label: 'Calendar', icon: <FaCalendarAlt /> },
     { label: 'Appointments', icon: <FaNotesMedical /> },
     { label: 'Statistics', icon: <FaChartBar /> },
-
-
 ];
 
 const Tools = [
@@ -22,6 +20,7 @@ const SettingsIcon = { label: 'Setting', icon: <FaCog /> }
 
 
 function SideBar_MainDiv() {
+
     return (
         <aside className="SideBar_MainDiv">
 
