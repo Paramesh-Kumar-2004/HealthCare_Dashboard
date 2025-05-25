@@ -6,7 +6,7 @@
 
 .Calendar_Container {
     max-width: 500px;
-    margin: auto;
+    min-width: 300px;
     padding: 20px;
     font-family: Arial, sans-serif;
     background: white;
@@ -64,7 +64,8 @@
 }
 
 .Up_Coming_Title {
-    margin: 0 0 14px 0px;
+    padding-top: 4px;
+    margin: 26px 0 24px 0px;
     color: black;
     font-weight: bolder;
     font-size: 20px;
@@ -73,4 +74,8 @@
 .Up_Comings{
     display: flex;
     flex-wrap: wrap;
+}
+
+.Upcoming_Day{
+    padding: 14px 0 14px 0;
 }

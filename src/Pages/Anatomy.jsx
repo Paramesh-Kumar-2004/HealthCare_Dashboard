@@ -44,6 +44,7 @@ function Anatomy() {
                     }}>Details 🡢</div>
                 </div>
             </div>
+            
 
         </div>
 

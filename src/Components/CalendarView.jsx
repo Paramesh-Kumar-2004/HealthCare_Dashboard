@@ -1,7 +1,9 @@
 import React from 'react'
-import "../Styles/CalendarView.css"
 import Appointments from './Appointments';
 import UpcomingSchedule from './UpcomingSchedule';
+
+import "../Styles/CalendarView.css"
+
 
 
 function CalendarView() {
