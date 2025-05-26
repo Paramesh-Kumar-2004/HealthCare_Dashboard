@@ -12,7 +12,10 @@ import './../Styles/DashboardMainContent.css';
 function DashboardOverview() {
   return (
     <div className="Dashboard_Component">
-      <div>
+      <div style={{
+        width: "40%",
+        zIndex:1
+      }}>
         <div>
           <Anatomy />
         </div>
@@ -26,7 +29,9 @@ function DashboardOverview() {
         </div>
       </div>
 
-      <div>
+      <div style={{
+        width: "550px"
+      }}>
         <CalendarView />
       </div>
     </div>
