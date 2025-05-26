@@ -39,7 +39,7 @@ function ActivityChart() {
   const options = {
     responsive: true,
     plugins: {
-      legend: { display: false },
+      legend: { display: true },
     },
     scales: {
       x: {
@@ -55,9 +55,10 @@ function ActivityChart() {
 
   return (
     <div style={{ padding: "14px" }}>
-      <h3 style={{marginBottom:'3px'}}>Activity</h3>
+      <h3 style={{ marginBottom: '3px' }}>Activity</h3>
       <Bar data={data} options={options} />
-    </div>
+
+    </div >
   );
 };
 

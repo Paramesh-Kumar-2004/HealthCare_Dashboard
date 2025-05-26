@@ -23,7 +23,16 @@ function CalendarView() {
 
   return (
     <div className="Calendar_Container">
-      <h1 className="Calendar_Title">October 2021</h1>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "center",
+          paddingRight: '24px'
+        }}>
+        <h1 className="Calendar_Title">October 2021</h1>
+        <span>⭪  &#160;&#160; ⭬</span>
+      </div>
 
       <div className="Week_Table">
         {weekDays.map((day, i) => {
@@ -112,3 +121,4 @@ const upcomingSchedule = [
     ],
   },
 ];
+

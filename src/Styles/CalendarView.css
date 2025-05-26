@@ -16,7 +16,7 @@
 .Calendar_Title {
     font-size: 24px;
     font-weight: bold;
-    margin-bottom: 14px;
+    /* margin-bottom: 14px; */
 }
 
 .Week_Table {
