@@ -121,4 +121,3 @@ const upcomingSchedule = [
     ],
   },
 ];
-
