@@ -15,7 +15,7 @@ function ActivityChart() {
   const data = {
     labels: ['Mon', 'Tues', 'Wed', 'Thurs', 'Fri', 'Sat', 'Sun'],
     datasets: [
-      {
+      { 
         label: 'Checkups',
         data: [3, 2, 3, 1, 4, 2, 1],
         backgroundColor: '#30C6FF',

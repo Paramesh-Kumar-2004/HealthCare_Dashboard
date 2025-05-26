@@ -72,7 +72,7 @@ function CalendarView() {
         </div>
 
         <div>
-          <Appointments Title={"Physiotherapy Appointment"} Icon={"🦷"} Apo_Time={"11:00 - 12:00"} Dr_Name={"Dr. Kevin Djones"} />
+          <Appointments Title={"Physiotherapy Appointment"} Icon={"💪"} Apo_Time={"11:00 - 12:00"} Dr_Name={"Dr. Kevin Djones"} />
         </div>
       </div>
 
