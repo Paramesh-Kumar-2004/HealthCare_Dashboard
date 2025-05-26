@@ -4,8 +4,9 @@
     gap: 24px;
 }
 
+
+
 .Dashboard_Component {
-    background: gray;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
