@@ -1,7 +1,7 @@
 import React from 'react';
 import '../Styles/Health_Status_Bar.css';
 
-function Health_Status_Bar({ Percentage=100, Fill_Color = "skyblue" }) {
+function HealthStatusBar({ Percentage=100, Fill_Color = "skyblue" }) {
     return (
         <div className="Bar_MainDiv">
             <div className="Line_Box">
@@ -20,4 +20,4 @@ function Health_Status_Bar({ Percentage=100, Fill_Color = "skyblue" }) {
     );
 }
 
-export default Health_Status_Bar;
+export default HealthStatusBar;

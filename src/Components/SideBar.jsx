@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { FaTachometerAlt, FaHistory, FaCalendarAlt, FaNotesMedical, FaChartBar, FaVial, FaComments, FaLifeRing, FaCog } from 'react-icons/fa';
+import React from 'react';
+import { FaTachometerAlt, FaHistory, FaCalendarAlt, FaNotesMedical, FaChartBar, FaComments, FaLifeRing, FaCog } from 'react-icons/fa';
 import '../Styles/Sidebar.css';
 
 
