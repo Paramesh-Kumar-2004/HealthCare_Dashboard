@@ -104,3 +104,11 @@ function CalendarView() {
 };
 
 export default CalendarView;
+
+
+
+
+
+  // "homepage": "https://Paramesh-Kumar-2004.github.io/HealthCare_Dashboard",
+  //     "predeploy": "npm run build",
+  //   "deploy": "gh-pages -d build"
