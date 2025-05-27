@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9dc85fe0.css",
+    "main.js": "/static/js/main.5acf2e0a.js",
+    "static/media/anatomy.jpg": "/static/media/anatomy.c81720141b209662751f.jpg",
+    "static/media/Bone.jpg": "/static/media/Bone.02cd1378570d722df755.jpg",
+    "static/media/Lungs.jpg": "/static/media/Lungs.d771d891d73cb4bd617d.jpg",
+    "static/media/Teeth.jpg": "/static/media/Teeth.0de6c145654b5dc8ff90.jpg",
+    "static/media/Logo.jpeg": "/static/media/Logo.deb110340f7faf513510.jpeg",
+    "index.html": "/index.html",
+    "main.9dc85fe0.css.map": "/static/css/main.9dc85fe0.css.map",
+    "main.5acf2e0a.js.map": "/static/js/main.5acf2e0a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9dc85fe0.css",
+    "static/js/main.5acf2e0a.js"
+  ]
+}
