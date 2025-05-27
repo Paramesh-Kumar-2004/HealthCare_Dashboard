@@ -104,20 +104,3 @@ function CalendarView() {
 };
 
 export default CalendarView;
-
-const upcomingSchedule = [
-  {
-    day: "Thursday",
-    events: [
-      { title: "Health checkup complete", time: "11:00 AM", icon: "🩺" },
-      { title: "Ophthalmologist", time: "14:00 PM", icon: "👁️" },
-    ],
-  },
-  {
-    day: "Saturday",
-    events: [
-      { title: "Cardiologist", time: "12:00 PM", icon: "❤️" },
-      { title: "Neurologist", time: "16:00 PM", icon: "🧠" },
-    ],
-  },
-];
